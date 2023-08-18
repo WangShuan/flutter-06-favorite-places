@@ -1,0 +1,70 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_config (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 8.0)
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_config (from `.symlinks/plugins/flutter_config/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_config:
+    :path: ".symlinks/plugins/flutter_config/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_config: 2226c1df19c78fe34a05eb7f1363445f18e76fc1
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  google_maps_flutter_ios: abdac20d6ce8931f6ebc5f46616df241bfaa2cfd
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.0
