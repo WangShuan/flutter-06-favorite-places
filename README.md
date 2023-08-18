@@ -710,3 +710,13 @@ class _PlacesScreenState extends ConsumerState<PlacesScreen> {
   }
 }
 ```
+
+## 補充於 `AppDelegate.swift` 中取用 env 的方法：
+
+```swift
+// 引入 flutter_config
+import flutter_config
+
+// 使用
+GMSServices.provideAPIKey(FlutterConfigPlugin.env(for: "GOOGLE_API_KEY"))
+```
